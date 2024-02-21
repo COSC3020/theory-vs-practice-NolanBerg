@@ -4,7 +4,7 @@
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
   
-1. Different machines deploy different kinds of computational mechanisms. Its possible to get different results running the same program on two different machines with distinct capabilities.
+1. Different machines have different kinds of computational mechanisms. Its possible to get different results running the same program on two different machines with distinct capabilities.
 
 2. A machine computes programs not algorithms, meaning it runs exact instructions and not an abstract mathmatical model.
 
