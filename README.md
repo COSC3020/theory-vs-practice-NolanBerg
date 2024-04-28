@@ -8,6 +8,8 @@
 
   Input Characteristics: Asymptotic complexity assumes average or worst case scenarios and does not account for the specific characteristics or distribution of the input data. In real world usage, the actual input data might not reflect these assumptions, which can affect performance. An example of this is that asymptotic analysis doesn't pay attention to small data sets.
 
+  System Architecture/Resources: Asymptotic analysis does not consider factors like memory hierarchy (cache sizes, disk access times), parallelism, or optimizations that can significantly impact performance. Eg an algorithm that fits well within the CPU cache will generally perform better than one that does not, regardless of asymptotic complexity.
+
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
   of search in a binary search tree, how long would you guess finding the same
