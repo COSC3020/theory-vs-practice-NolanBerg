@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/FgMJElkj)
 # Theory vs. Practice
 
-Sources: Used ai mainly for the second question
+Sources: Used ai mainly for the second question and google
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
