@@ -23,7 +23,7 @@
 
     $(\log_2(10000) \approx 13.3)$
   
-    $( 5 \times \frac{13.3}{10} \approx 6.65)$ seconds
+    $( 5 \times \frac{13.3}{10}) \approx$ 6.65 seconds
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
