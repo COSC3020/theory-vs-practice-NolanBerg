@@ -31,7 +31,7 @@ Sources: Used ai mainly for the second question
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 
-  Tree Structure: If the tree is not perfectly balanced and instead is skewed or weakens to a list like structure, the effective complexity could approach $( O(n) )$, resulting in longer search times. A height balanced tree does not always mean a perfectly balanced tree.
+  Tree Structure: If the tree is not perfectly balanced and instead is skewed or weakens to be list like structure, the effective complexity could approach $( O(n) )$, resulting in longer search times. A height balanced tree does not always mean a perfectly balanced tree.
 
   System Limitations: With larger data there may be overheads such as memory management, paging, and cache inefficiency. These overheads grow as the size of the data structure increases, especially if the data no longer fits efficiently in memory or cache.
 
