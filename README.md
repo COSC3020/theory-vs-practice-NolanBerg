@@ -35,4 +35,4 @@ Sources: Used ai mainly for the second question
 
   System Limitations: With larger data there may be overheads such as memory management, paging, and cache inefficiency. These overheads grow as the size of the data structure increases, especially if the data no longer fits efficiently in memory or cache.
 
-  Implementation: Certain implementation specifics such as recursion depth, function calls, or bad memory access patterns can potentially affect performance. If the implementation involves checks that were not accounted for in the asymptotic analysis, it can lead to increased execution time.
+  Implementation: Certain implementation specifics such as recursion depth, function calls, or bad memory access patterns can potentially affect performance. If the implementation involves checks that were not counted in the asymptotic analysis, it can lead to worse execution time.
