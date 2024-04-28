@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/FgMJElkj)
 # Theory vs. Practice
 
+Sources: Used ai mainly for the second question
+
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
 
@@ -33,4 +35,4 @@
 
   System Limitations: With larger data there may be overheads such as memory management, paging, and cache inefficiency. These overheads grow as the size of the data structure increases, especially if the data no longer fits efficiently in memory or cache.
 
-
+  Implementation: Certain implementation specifics such as recursion depth, function calls, or bad memory access patterns can potentially affect performance. If the implementation involves checks that were not accounted for in the asymptotic analysis, it can lead to increased execution time.
