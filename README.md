@@ -4,8 +4,9 @@
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
 
-  Constants/Lower Order Terms: Asymptotic analysis disregards constants and lower order terms which can be significant in practical scenarios. An algorithm with a lower asymptotic complexity might have a large constant factor making it slower for smaller inputs compared to another with a higher complexity but smaller constant factor.
+  Constants/Lower Order Terms: Asymptotic analysis disregards constants and lower order terms which can be significant in practical scenarios. An algorithm with a lower asymptotic complexity might have a large constant factor making it slower for smaller inputs compared to another with a higher complexity but a smaller constant factor.
 
+  Input Characteristics: Asymptotic complexity assumes average or worst case scenarios and does not account for the specific characteristics or distribution of the input data. In real world usage, the actual input data might not reflect these assumptions, which can affect performance. An example of this is that asymptotic analysis doesn't pay attention to small data sets.
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
