@@ -8,10 +8,8 @@ Sources: Used ai mainly for the second question and google
 
   Constants/Lower Order Terms: Asymptotic analysis disregards constants and lower order terms which can be significant in practical scenarios. An algorithm with a lower asymptotic complexity might have a large constant factor making it slower for smaller inputs compared to another with a higher complexity but a smaller constant factor.
 
-  Input Characteristics: Asymptotic complexity assumes average or worst case scenarios and does not account for the specific characteristics or distribution of the input data. In real world usage, the actual input data might not reflect these assumptions, which can affect performance. An example of this is that asymptotic analysis doesn't pay attention to small data sets.
-
-  System Architecture/Resources: Asymptotic analysis does not consider factors like memory hierarchy (cache sizes, disk access times), parallelism, or optimizations that can significantly impact performance. Eg an algorithm that fits well within the CPU cache will generally perform better than one that does not, regardless of asymptotic complexity.
-
+  Time Complexity is not strict: Big Oh notation is a way to give a rough idea of how slow an algorithm can get as the amount of data increases. For example, if an algorithm is described as $(O(n^2))$, it means that in the worst case, its running time will increase by the square of the number of items. But, this notation is pretty flexible. That same algorithm could also be described as $(O(n^3))$ or $(O(n^4))$ because those notations cover any performance that's as bad or worse than $(O(n^2))$. Big Omega notation works the other way around, setting a baseline for how fast an algorithm can be. Because these notations are so broad, they can sometimes give a misleading picture of how an algorithm actually performs in real situations.
+ 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
   of search in a binary search tree, how long would you guess finding the same
