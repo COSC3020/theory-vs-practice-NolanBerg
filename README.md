@@ -10,7 +10,7 @@ Sources: Used ai mainly for the second question and google
 
   Time Complexity is Not Strict: Big Oh notation is a way to give a rough idea of how slow an algorithm can get as the amount of data increases. For example, if an algorithm is described as $(O(n^2))$, it means that in the worst case, its running time will increase by the square of the number of items. But, this notation is pretty flexible. That same algorithm could also be described as $(O(n^3))$ or $(O(n^4))$ because those notations cover any performance that's as bad or worse than $(O(n^2))$. Big Omega notation works the other way around, setting a baseline for how fast an algorithm can be. Because these notations are so broad, they can sometimes give a misleading picture of how an algorithm actually performs in real situations.
 
-  Size of Input Data: The size of the input data is important in determining the efficiency of an algorithm, especially when dealing with smaller inputs. While time complexity gives us an idea of how an algorithm will behave for large inputs, it doesn't tell us much about its performance with smaller inputs. In practice, there's often a threshold where the algorithm's efficiency becomes noticeable. For inputs smaller than this threshold, the algorithm might not be as fast or efficient as other algorithms that are designed specifically for smaller datasets. So, even if an algorithm is theoretically efficient for large inputs, it might not be the best choice for smaller inputs where a different algorithm could outperform it in terms of speed and efficiency even if we analyze the case beforehand.
+  Size of Input Data: The size of the input data is important in determining the efficiency of an algorithm, especially when dealing with smaller inputs. While time complexity gives us an idea of how an algorithm will behave for large inputs, it doesn't tell us much about its performance with smaller inputs. In practice, there's often a threshold where the algorithm's efficiency becomes noticeable. For inputs smaller than this threshold, the algorithm might not be as fast or efficient as other algorithms that are designed specifically for smaller datasets. So, even if an algorithm is theoretically efficient for large inputs, it might not be the best choice for smaller inputs where a different algorithm could outperform it in terms of speed and efficiency.
 
  Size of Input Data: 
  
@@ -33,7 +33,9 @@ Sources: Used ai mainly for the second question and google
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 
-  Tree Structure: If the tree is not perfectly balanced and instead is skewed or weakens to be list like structure, the effective complexity could approach $( O(n) )$, resulting in longer search times. A height balanced tree does not always mean a perfectly balanced tree.
+  
+  Measurement Consistency and Operation: If the timing recorded for searching with 10,000 elements included more than just the search, like the time for inserting elements and balancing the tree, this could explain why the search seemed long. It’s important to make sure that the timing strictly captures the search process alone. In contrast, if these extra steps were accidentally excluded from the initial timing with 1,000 elements but included with 10,000, it could appear as if the search time drastically increased as the dataset grew.
+
 
   System Limitations: With larger data there may be overheads such as memory management, paging, and cache inefficiency. These overheads grow as the size of the data structure increases, especially if the data no longer fits efficiently in memory or cache.
 
